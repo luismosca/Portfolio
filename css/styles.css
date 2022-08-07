@@ -1,0 +1,57 @@
+body {
+    background-color: #333; 
+    color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: darksalmon;
+}
+
+h1 {
+    color: darkkhaki; 
+}
+#section-intro {
+    color: hotpink;
+}
+
+.subtitle {
+    color: white;
+}
+
+.intro {
+    font-size: 30px;
+
+}
+
+#earth-title {
+    color: lightgreen;
+}
+
+@media (max-width:600px) {
+    body {
+        background-color: white;
+    }
+}
+
+#welcome-section {
+    height: 100vh;
+    padding-top: 220px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    height: 50px;
+}
+
+#navbar a{
+    margin-left: 5px;
+}
